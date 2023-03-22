@@ -5,7 +5,6 @@ import { FormioModule } from '@formio/angular';
 import { BuilderComponent } from './builder/builder.component';
 import {CustomBuilderComponent} from './custom-builder/builder.component';
 import { RendererComponent } from './renderer/renderer.component';
-import { SimpleComponent } from './simple/simple.component';
 import { FormsComponent } from './forms/forms.component';
 import { FORMS } from './forms.index';
 
@@ -23,7 +22,6 @@ import { FORMS } from './forms.index';
     CustomBuilderComponent,
     BuilderComponent,
     RendererComponent,
-    SimpleComponent,
     FormsComponent
   ],
   bootstrap: [
